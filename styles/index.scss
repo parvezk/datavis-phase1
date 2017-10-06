@@ -1,0 +1,134 @@
+body{
+}
+
+h2 {
+	font-family: sans-serif;
+	font-size: 22px;
+	color: darkslateblue;
+}
+
+.indicators{
+	margin: 20px 0;
+
+	ul{
+		list-style-type: none;
+		margin: 0;
+
+		li{
+			color: darkgray;
+			font-style: italic;
+			font-family: sans-serif;
+			font-size: 12px;
+			margin: 0 0 5px 0;
+			
+			span.circle-red {
+				display: inline-block;
+				width: 10px;
+				height: 10px;
+				background: red;
+				border-radius: 10px;
+				margin-right: 5px;
+			}
+			span.circle {
+				display: inline-block;
+				width: 10px;
+				height: 10px;
+				background: cornflowerblue;
+				border-radius: 10px;
+				margin-right: 5px;
+			}
+		}
+	}
+}
+
+.infobar{
+	font-family: sans-serif;
+	font-size: 13px;
+	
+	.wrapper{
+		display: inline-block;
+		list-style-type: none;
+		margin: 0 0 0 40px;
+		padding: 0;
+		
+		li{
+			display: inline-block;
+			margin: 10px 20px;
+			text-align: center;
+			
+			&:first-child{
+				margin: 0;
+			}
+			
+			p{
+				font-size: 12px;
+			}
+			
+			a {
+				display: block;
+				font-size: 12px;
+				color: #fff;
+				padding: 10px 20px;
+				text-decoration: none;
+				text-align: center;
+				text-transform: uppercase;
+				background: cornflowerblue;
+				
+				&:first-child{
+				}
+				a:first-of-type {
+				}
+			}
+		}
+	}
+}
+
+.axis-y {
+	font-family: sans-serif;
+	font-size: 13px;
+	color: '#ff0000';
+}
+
+.line {
+  fill: none;
+  stroke: steelblue;
+  stroke-width: 2px;
+}
+
+.axisX line{
+  stroke: grey;
+}
+
+.axisX path{
+  stroke: grey;
+}
+
+.axisX text{
+  fill: black;
+	font-family: sans-serif;
+	font-size: 12px;
+	line-height: 1.2em;
+	margin: 10px 0 0 0;
+}
+
+.axisY line{
+  stroke: grey;
+}
+
+.axisY path{
+  stroke: grey;
+}
+
+.axisY text{
+  fill: black;
+	font-family: sans-serif;
+	font-size: 12px;
+}
+
+.nvd3 .nv-axis path {
+   fill: none;
+   stroke: #000;
+   stroke-opacity: .75;
+   shape-rendering: crispEdges;
+}
+

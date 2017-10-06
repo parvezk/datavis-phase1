@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<link rel="stylesheet" type="text/css" href="styles/index.processed.css">
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.9.1/d3.min.js"></script>
+		<script src="https://d3js.org/d3-selection-multi.v1.min.js"></script>
+		<title>Document</title>
+</head>
+
+<body>
+		<h2 class="title">Total Crime Index For The Nation’s Largest Cities</h2>
+		<div class="container">
+				<svg id="graph" height="300" width="800">
+	</svg>
+		</div>
+		<div class="infobar">
+				<ul class="wrapper">
+						<li>
+								<p>View Line Graph</p>
+								<a href="#" class='line'>Line Graph</a>
+						</li>
+						<li>
+								<p>View Nodes</p>
+								<a href="#" class='scatter'>Add Nodes</a>
+						</li>
+						<li>
+								<p>Show both the views</p>
+								<a href="#" class='both'>Show both</a>
+						</li>
+						<li>
+								<p>View Rates</p>
+								<a href="#" class='toggle'>Toggle Rates</a>
+						</li>
+				</ul>
+		</div>
+		<div class="indicators">
+				<ul>
+						<li><span class="circle"></span> *Below 4800</li>
+						<li><span class="circle-red"></span> *Extremes - Above 4800</li>
+				</ul>
+		</div>
+		<script src="scripts/index.processed.js"></script>
+</body>
+
+</html>
