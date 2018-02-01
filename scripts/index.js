@@ -158,7 +158,8 @@ const addLabels = () => {
 		});
 };
 
-const path = "https://data.cityofnewyork.us/resource/h6yn-47fn.json";
+//const path = "https://data.cityofnewyork.us/resource/h6yn-47fn.json";
+const path = "./../rows.json";
 d3.json(path, function(error, data) {
 	dataset = data;
 	//console.log(data)

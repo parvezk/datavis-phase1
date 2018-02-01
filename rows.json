@@ -1,34 +1,33 @@
 {
   "meta" : {
     "view" : {
-      "id" : "3h6b-pt5u",
+      "id" : "9mgw-8s8j",
       "name" : "Total Crime Index For The Nation’s Largest Cities",
       "attribution" : "Office of the Mayor (OTM)",
       "attributionLink" : "http://www.nyc.gov/html/omb/downloads/pdf/sum1_13.pdf",
       "averageRating" : 0,
-      "category" : "City Government",
       "createdAt" : 1360792616,
       "description" : "Total Crime Index for the Nation’s Largest Cities",
       "displayType" : "table",
-      "downloadCount" : 12242,
+      "downloadCount" : 4,
       "hideFromCatalog" : false,
       "hideFromDataJson" : false,
-      "indexUpdatedAt" : 1506710688,
+      "indexUpdatedAt" : 1395352397,
       "newBackend" : false,
       "numberOfComments" : 0,
-      "oid" : 4140955,
+      "oid" : 2515613,
       "provenance" : "official",
       "publicationAppendEnabled" : false,
       "publicationDate" : 1371845030,
       "publicationGroup" : 675771,
-      "publicationStage" : "published",
+      "publicationStage" : "snapshotted",
       "rowClass" : "",
-      "rowsUpdatedAt" : 1371845026,
-      "rowsUpdatedBy" : "5fuc-pqz2",
-      "tableId" : 932948,
+      "rowsUpdatedAt" : 1360792619,
+      "rowsUpdatedBy" : "iacr-duv5",
+      "tableId" : 675771,
       "totalTimesRated" : 0,
-      "viewCount" : 2040,
-      "viewLastModified" : 1506710630,
+      "viewCount" : 16,
+      "viewLastModified" : 1409939025,
       "viewType" : "tabular",
       "columns" : [ {
         "id" : -1,
@@ -103,7 +102,7 @@
         "format" : { },
         "flags" : [ "hidden" ]
       }, {
-        "id" : 75768346,
+        "id" : 44648427,
         "name" : "Year",
         "dataTypeName" : "number",
         "fieldName" : "year",
@@ -125,7 +124,7 @@
         },
         "format" : { }
       }, {
-        "id" : 75768347,
+        "id" : 44648428,
         "name" : "Crime Index Ranking ",
         "dataTypeName" : "number",
         "fieldName" : "crime_index_ranking",
@@ -174,7 +173,7 @@
         },
         "format" : { }
       }, {
-        "id" : 75768348,
+        "id" : 44648429,
         "name" : "City",
         "dataTypeName" : "text",
         "fieldName" : "city",
@@ -221,7 +220,7 @@
         },
         "format" : { }
       }, {
-        "id" : 75768349,
+        "id" : 44648430,
         "name" : "Rate",
         "dataTypeName" : "number",
         "fieldName" : "rate",
@@ -277,7 +276,6 @@
         "rdfClass" : "",
         "custom_fields" : {
           "Update" : {
-            "Automation" : "No",
             "Update Frequency" : "Annually"
           },
           "Dataset Information" : {
@@ -285,25 +283,33 @@
           }
         },
         "rowIdentifier" : "0",
-        "rowLabel" : ""
+        "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+        "renderTypeConfig" : {
+          "visible" : {
+            "table" : true
+          }
+        }
       },
       "owner" : {
         "id" : "5fuc-pqz2",
         "displayName" : "NYC OpenData",
-        "lastNotificationSeenAt" : 1496414226,
-        "roleName" : "administrator",
-        "screenName" : "NYC OpenData",
-        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards", "manage_provenance", "create_story", "edit_story_title_desc", "create_story_copy", "delete_story", "manage_story_collaborators", "manage_story_visibility", "manage_story_public_version", "edit_story", "view_unpublished_story", "view_story", "view_all_dataset_status_logs", "use_data_connectors", "edit_others_stories", "view_stories_stats", "short_session", "manage_goals", "manage_spatial_lens", "view_activity_log", "create_data_lens" ]
+        "profileImageUrlLarge" : "/api/users/5fuc-pqz2/profile_images/LARGE",
+        "profileImageUrlMedium" : "/api/users/5fuc-pqz2/profile_images/THUMB",
+        "profileImageUrlSmall" : "/api/users/5fuc-pqz2/profile_images/TINY",
+        "screenName" : "NYC OpenData"
       },
       "query" : { },
       "rights" : [ "read" ],
       "tableAuthor" : {
-        "id" : "iacr-duv5",
-        "displayName" : "Tejas.Patel",
-        "screenName" : "Tejas.Patel"
+        "id" : "5fuc-pqz2",
+        "displayName" : "NYC OpenData",
+        "profileImageUrlLarge" : "/api/users/5fuc-pqz2/profile_images/LARGE",
+        "profileImageUrlMedium" : "/api/users/5fuc-pqz2/profile_images/THUMB",
+        "profileImageUrlSmall" : "/api/users/5fuc-pqz2/profile_images/TINY",
+        "screenName" : "NYC OpenData"
       },
       "tags" : [ "crime", "index", "nationwide", "fbi data", "new york city", "safest" ],
-      "flags" : [ "default", "restorable", "restorePossibleForType" ]
+      "flags" : [ "default" ]
     }
   },
   "data" : [ [ 1, "ECD7CC9A-11A8-4279-9728-2316A658C415", 1, 1360763818, "706227", 1360763818, "706227", "{\n}", "2009", "1", "New York", "2242.10" ]
